@@ -43,11 +43,8 @@ Sistema integrado que automatiza processos, centraliza informações e melhora a
 ### **Painel Administrativo**
 
 - ✅ **Dashboard Dinâmico** - Estatísticas em tempo real com dados da API
-
 - ✅ **Gerenciamento de Atendimentos** - Gerenciamento completo de consultas e procedimentos
-
 - ✅ **Gerenciamento de Clientes** - Cadastro completo com dados pessoais e contato
-
 - ✅ **Gerenciamento de Pets/Raças** - Sistema integrado para pets e suas raças
 
 ![Gerenciamento de pets](./image/readme/adm_ger_pets.png)
@@ -243,12 +240,12 @@ Os testes podem ser executados com `uv run` ou diretamente se o `pytest` estiver
 cd backend
 
 # Rodar os testes
-# Com UV: uv run pytest -v
-# Com Pip: pytest -v
+# UV: uv run pytest -v
+# Pip: pytest -v
 
 # Rodar com cobertura de testes
-# Com UV: uv run pytest --cov=app --cov-report=html
-# Com Pip: pytest --cov=app --cov-report=html
+# UV: uv run pytest --cov=app --cov-report=html
+# Pip: pytest --cov=app --cov-report=html
 ```
 
 ---

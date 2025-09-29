@@ -6,13 +6,13 @@ Sistema web full-stack para gestão de petshops, composto por API REST (FastAPI)
 
 ## Índice
 
-- [ Visão Geral](#-visão-geral)
-- [ Funcionalidades](#-funcionalidades)
-- [ Tecnologias Utilizadas](#-tecnologias-utilizadas)
-- [ Arquitetura](#-arquitetura)
-- [ Como Executar](#-como-executar)
-- [ Estrutura do Projeto](#-estrutura-do-projeto)
-- [ Desenvolvedor](#-desenvolvedor)
+- [ Visão Geral](#visao-geral)
+- [ Funcionalidades](#funcionalidades)
+- [ Tecnologias Utilizadas](#tecnologias-utilizadas)
+- [ Arquitetura](#arquitetura)
+- [ Como Executar](#como-executar)
+- [ Estrutura do Projeto](#estrutura-do-projeto)
+- [ Desenvolvedor](#desenvolvedor)
 
 ---
 

@@ -183,7 +183,8 @@ source .venv/bin/activate  # Linux/Mac
 pip install -e .[dev]
 ```
 
-# Crie uma copia do arquivo ".env.example" e renomeie para ".env"
+# Variaveis de Ambiente
+Crie uma copia do arquivo ".env.example" e renomeie para ".env"
 
 Ajuste as variáveis de ambiente do banco de dados mysql local
 

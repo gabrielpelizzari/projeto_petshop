@@ -197,7 +197,7 @@ Se estiver usando **UV**, execute os comandos com `uv run`. Se estiver usando **
 # UV: uv run python -m main
 # Pip: python -m main
 
-# Comando para criar um usuario administrador
+# Comando para criar um usuario administrador (Necessário para acessar o painel administrativo)
 # UV: uv run python scripts/create_user.py
 # Pip: python scripts/create_user.py
 

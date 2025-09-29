@@ -419,7 +419,7 @@ dependencies = [
     { name = "uvicorn", extra = ["standard"] },
 ]
 
-[package.dev-dependencies]
+[package.optional-dependencies]
 dev = [
     { name = "factory-boy" },
     { name = "httpx" },
@@ -432,24 +432,21 @@ requires-dist = [
     { name = "bcrypt", specifier = "==3.2.0" },
     { name = "cryptography", specifier = ">=41.0.0" },
     { name = "email-validator" },
+    { name = "factory-boy", marker = "extra == 'dev'", specifier = ">=3.3.3" },
     { name = "fastapi" },
+    { name = "httpx", marker = "extra == 'dev'", specifier = ">=0.28.1" },
     { name = "passlib", specifier = "==1.7.4" },
     { name = "pydantic-settings" },
     { name = "pymysql", specifier = ">=1.1.0" },
+    { name = "pytest", marker = "extra == 'dev'", specifier = ">=8.4.2" },
+    { name = "pytest-asyncio", marker = "extra == 'dev'", specifier = ">=1.2.0" },
     { name = "python-jose", extras = ["cryptography"] },
     { name = "python-multipart" },
     { name = "requests", specifier = ">=2.32.5" },
     { name = "sqlalchemy" },
     { name = "uvicorn", extras = ["standard"] },
 ]
-
-[package.metadata.requires-dev]
-dev = [
-    { name = "factory-boy", specifier = ">=3.3.3" },
-    { name = "httpx", specifier = ">=0.28.1" },
-    { name = "pytest", specifier = ">=8.4.2" },
-    { name = "pytest-asyncio", specifier = ">=1.2.0" },
-]
+provides-extras = ["dev"]
 
 [[package]]
 name = "pyasn1"

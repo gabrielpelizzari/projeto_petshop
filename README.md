@@ -43,10 +43,15 @@ Sistema integrado que automatiza processos, centraliza informações e melhora a
 ### **Painel Administrativo**
 
 - ✅ **Dashboard Dinâmico** - Estatísticas em tempo real com dados da API
-- ✅ **Gerenciamento de Atendimentos** - Gerenciamento completo de consultas e procedimentos
-- ✅ **Gerenciamento de Clientes** - Cadastro completo com dados pessoais e contato
-- ✅ **Gerenciamento de Pets/Raças** - Sistema integrado para pets e suas raças
+![Dashboard administrativo](./image/readme/dashboard_administrativo.png)
 
+- ✅ **Gerenciamento de Atendimentos** - Gerenciamento completo de consultas e procedimentos
+![Gerenciamento de atendimentos](./image/readme/adm_ger_atendimentos.png)
+
+- ✅ **Gerenciamento de Clientes** - Cadastro completo com dados pessoais e contato
+![Gerenciamento de clientes](./image/readme/adm_ger_clientes.png)
+
+- ✅ **Gerenciamento de Pets/Raças** - Sistema integrado para pets e suas raças
 ![Gerenciamento de pets](./image/readme/adm_ger_pets.png)
 
 ### **Portal do Cliente**

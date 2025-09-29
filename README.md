@@ -16,7 +16,7 @@ Sistema web full-stack para gestão de petshops, composto por API REST (FastAPI)
 
 ---
 
-## Visão geral
+## Visão Geral {#visao-geral}
 
 Sistema completo para gestão de petshops, desenvolvido para automatizar processos operacionais e centralizar informações de clientes, pets e atendimentos.
 
@@ -34,7 +34,7 @@ Sistema integrado que automatiza processos, centraliza informações e melhora a
 
 ---
 
-## Funcionalidades
+## Funcionalidades {#funcionalidades}
 
 ### **Home**
 
@@ -75,7 +75,7 @@ Sistema integrado que automatiza processos, centraliza informações e melhora a
 
 ---
 
-## Tecnologias Utilizadas
+## Tecnologias Utilizadas {#tecnologias-utilizadas}
 
 ### Backend (Python/FastAPI)
 
@@ -112,7 +112,7 @@ Sistema integrado que automatiza processos, centraliza informações e melhora a
 
 ---
 
-## Arquitetura
+## Arquitetura {#arquitetura}
 
 ### Fluxo de dados
 
@@ -141,7 +141,7 @@ Relacionamentos:
 - clientes 1:1 contatos
 ```
 
-## Como executar
+## Como Executar {#como-executar}
 
 ### Pré-requisitos
 
@@ -218,7 +218,7 @@ uv run pytest --cov=app --cov-report=html
 
 ---
 
-## Estrutura do projeto
+## Estrutura do Projeto {#estrutura-do-projeto}
 
 ```
 projeto_petshop/
@@ -345,7 +345,7 @@ projeto_petshop/
 
 ---
 
-## Desenvolvedor
+## Desenvolvedor {#desenvolvedor}
 
 **Gabriel Pelizzari**
 *Desenvolvedor Full Stack*

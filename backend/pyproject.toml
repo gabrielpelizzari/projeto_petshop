@@ -1,0 +1,28 @@
+[project]
+name = "projeto_petshop"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",
+    "sqlalchemy",
+    "pydantic-settings",
+    "python-jose[cryptography]",
+    "passlib==1.7.4",
+    "bcrypt==3.2.0",
+    "python-multipart",
+    "email-validator",
+    "requests>=2.32.5",
+    "pymysql>=1.1.0",
+    "cryptography>=41.0.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.4.2",
+    "pytest-asyncio>=1.2.0",
+    "httpx>=0.28.1",
+    "factory-boy>=3.3.3",
+]

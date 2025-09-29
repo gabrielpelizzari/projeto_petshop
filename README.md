@@ -44,22 +44,13 @@ Sistema integrado que automatiza processos, centraliza informações e melhora a
 
 - ✅ **Dashboard Dinâmico** - Estatísticas em tempo real com dados da API
 
-![Dashboard administrativo](./image/readme/dashboard_administrativo.png)
----
 - ✅ **Gerenciamento de Atendimentos** - Gerenciamento completo de consultas e procedimentos
 
-![Gerenciamento de atendimentos](./image/readme/adm_ger_atendimentos.png)
----
 - ✅ **Gerenciamento de Clientes** - Cadastro completo com dados pessoais e contato
 
-![Gerenciamento de clientes](./image/readme/adm_ger_clientes.png)
----
 - ✅ **Gerenciamento de Pets/Raças** - Sistema integrado para pets e suas raças
 
 ![Gerenciamento de pets](./image/readme/adm_ger_pets.png)
-
-![Gerenciamento de raças](./image/readme/adm_ger_racas.png)
----
 
 ### **Portal do Cliente**
 
@@ -151,7 +142,7 @@ Relacionamentos:
 
 - **Python 3.13+** instalado
 - **Node.js 20.19.0+** instalado
-- **UV** (gerenciador de dependências Python)
+- **UV** (recomendado) ou **Pip**
 - **Git** para controle de versão
 
 ### Instalação
@@ -165,24 +156,55 @@ cd projeto_petshop
 
 #### 2. Backend
 
+##### Opção 1: Usando UV (Recomendado)
+
 ```bash
 cd backend
+
+# Sincroniza o ambiente virtual e instala as dependências
 uv sync
+
+# Ativa o ambiente virtual
+source .venv/bin/activate  # Linux/Mac
+# .venv\Scripts\activate   # Windows
+```
+
+##### Opção 2: Usando Pip e Venv
+
+```bash
+cd backend
+
+# Crie e ativa o ambiente virtual
+python -m venv .venv
 source .venv/bin/activate  # Linux/Mac
 # .venv\Scripts\activate   # Windows
 
+# Instala as dependências de produção e desenvolvimento
+pip install -e .[dev]
+```
+
 # Crie uma copia do arquivo ".env.example" e renomeie para ".env"
+
 Ajuste as variáveis de ambiente do banco de dados mysql local
 
-# Execute os comandos abaixo na ordem abaixo
+Ajuste as variáveis de ambiente no arquivo `.env` conforme necessário.
+
+#### Execução dos Comandos
+
+Se estiver usando **UV**, execute os comandos com `uv run`. Se estiver usando **Pip/Venv**, execute os comandos diretamente com `python`.
+
+```bash
 # Comando para realizar o migrate das tabelas no banco de dados
-uv run python -m main
+# UV: uv run python -m main
+# Pip: python -m main
 
 # Comando para criar um usuario administrador
-uv run python scripts/create_user.py
+# UV: uv run python scripts/create_user.py
+# Pip: python scripts/create_user.py
 
 # Comando para iniciar o servidor
-uv run python -m uvicorn main:app --reload --host 127.0.0.1 --port 8000
+# UV: uv run python -m uvicorn main:app --reload --host 127.0.0.1 --port 8000
+# Pip: python -m uvicorn main:app --reload --host 127.0.0.1 --port 8000
 ```
 
 #### 3. Frontend (novo terminal)
@@ -212,12 +234,19 @@ npm run dev
 
 ### **Testes**
 
-```bash
-# Backend
-cd backend && uv run pytest -v
+Os testes podem ser executados com `uv run` ou diretamente se o `pytest` estiver no seu ambiente virtual.
 
-# Cobertura de testes
-uv run pytest --cov=app --cov-report=html
+```bash
+# Acessar a pasta do backend
+cd backend
+
+# Rodar os testes
+# Com UV: uv run pytest -v
+# Com Pip: pytest -v
+
+# Rodar com cobertura de testes
+# Com UV: uv run pytest --cov=app --cov-report=html
+# Com Pip: pytest --cov=app --cov-report=html
 ```
 
 ---

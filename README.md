@@ -43,16 +43,13 @@ Sistema integrado que automatiza processos, centraliza informações e melhora a
 ### **Painel Administrativo**
 
 - ✅ **Dashboard Dinâmico** - Estatísticas em tempo real com dados da API
-![Dashboard administrativo](./image/readme/dashboard_administrativo.png)
-
+  ![Dashboard administrativo](./image/readme/dashboard_administrativo.png)
 - ✅ **Gerenciamento de Atendimentos** - Gerenciamento completo de consultas e procedimentos
-![Gerenciamento de atendimentos](./image/readme/adm_ger_atendimentos.png)
-
+  ![Gerenciamento de atendimentos](./image/readme/adm_ger_atendimentos.png)
 - ✅ **Gerenciamento de Clientes** - Cadastro completo com dados pessoais e contato
-![Gerenciamento de clientes](./image/readme/adm_ger_clientes.png)
-
+  ![Gerenciamento de clientes](./image/readme/adm_ger_clientes.png)
 - ✅ **Gerenciamento de Pets/Raças** - Sistema integrado para pets e suas raças
-![Gerenciamento de pets](./image/readme/adm_ger_pets.png)
+  ![Gerenciamento de pets](./image/readme/adm_ger_pets.png)
 
 ### **Portal do Cliente**
 
@@ -221,9 +218,13 @@ npm run dev
 
 ### **Acesso ao Sistema**
 
+#### **Home Page**
+
+- **Home:** `http://localhost:5173`
+
 #### **Painel Administrativo**
 
-- **URL:** `http://localhost:5173/dashboard/admin`
+- **Painel de Administrador:** `http://localhost:5173/dashboard/admin`
 
 #### **Portal do Cliente** 👤
 

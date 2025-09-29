@@ -164,7 +164,7 @@ cd backend
 uv sync
 
 # Ativa o ambiente virtual
-source .venv/bin/activate  # Linux/Mac
+# source .venv/bin/activate  # Linux/Mac
 # .venv\Scripts\activate   # Windows
 ```
 
@@ -175,7 +175,7 @@ cd backend
 
 # Crie e ativa o ambiente virtual
 python -m venv .venv
-source .venv/bin/activate  # Linux/Mac
+# source .venv/bin/activate  # Linux/Mac
 # .venv\Scripts\activate   # Windows
 
 # Instala as dependências de produção e desenvolvimento
@@ -185,7 +185,7 @@ pip install -e .[dev]
 #### Variaveis de Ambiente
 
 ```bash
-#Crie uma copia do arquivo ".env.example" e renomeie para ".env"
+# Crie uma copia do arquivo ".env.example" e renomeie para ".env"
 
 # Ajuste as variáveis de ambiente do banco de dados mysql local
 
@@ -198,16 +198,16 @@ Se estiver usando **UV**, execute os comandos com `uv run`. Se estiver usando **
 
 ```bash
 # Comando para realizar o migrate das tabelas no banco de dados
-# UV: uv run python -m main
-# Pip: python -m main
+UV: uv run python -m main
+Pip: python -m main
 
 # Comando para criar um usuario administrador (Necessário para acessar o painel administrativo)
-# UV: uv run python scripts/create_user.py
-# Pip: python scripts/create_user.py
+UV: uv run python scripts/create_user.py
+Pip: python scripts/create_user.py
 
 # Comando para iniciar o servidor
-# UV: uv run python -m uvicorn main:app --reload --host 127.0.0.1 --port 8000
-# Pip: python -m uvicorn main:app --reload --host 127.0.0.1 --port 8000
+UV: uv run python -m uvicorn main:app --reload --host 127.0.0.1 --port 8000
+Pip: python -m uvicorn main:app --reload --host 127.0.0.1 --port 8000
 ```
 
 #### 3. Frontend (novo terminal)

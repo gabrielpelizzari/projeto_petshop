@@ -6,17 +6,17 @@ Sistema web full-stack para gestão de petshops, composto por API REST (FastAPI)
 
 ## Índice
 
-- [ Visão Geral](#visao-geral)
-- [ Funcionalidades](#funcionalidades)
-- [ Tecnologias Utilizadas](#tecnologias-utilizadas)
-- [ Arquitetura](#arquitetura)
-- [ Como Executar](#como-executar)
-- [ Estrutura do Projeto](#estrutura-do-projeto)
-- [ Desenvolvedor](#desenvolvedor)
+- [📋 Visão Geral](#-visão-geral)
+- [⚡ Funcionalidades](#-funcionalidades)
+- [🛠️ Tecnologias Utilizadas](#️-tecnologias-utilizadas)
+- [🏗️ Arquitetura](#️-arquitetura)
+- [🚀 Como Executar](#-como-executar)
+- [📁 Estrutura do Projeto](#-estrutura-do-projeto)
+- [👨‍💻 Desenvolvedor](#-desenvolvedor)
 
 ---
 
-## Visão Geral {#visao-geral}
+## 📋 Visão Geral
 
 Sistema completo para gestão de petshops, desenvolvido para automatizar processos operacionais e centralizar informações de clientes, pets e atendimentos.
 
@@ -34,7 +34,7 @@ Sistema integrado que automatiza processos, centraliza informações e melhora a
 
 ---
 
-## Funcionalidades {#funcionalidades}
+## ⚡ Funcionalidades
 
 ### **Home**
 
@@ -75,7 +75,7 @@ Sistema integrado que automatiza processos, centraliza informações e melhora a
 
 ---
 
-## Tecnologias Utilizadas {#tecnologias-utilizadas}
+## 🛠️ Tecnologias Utilizadas
 
 ### Backend (Python/FastAPI)
 
@@ -112,7 +112,7 @@ Sistema integrado que automatiza processos, centraliza informações e melhora a
 
 ---
 
-## Arquitetura {#arquitetura}
+## 🏗️ Arquitetura
 
 ### Fluxo de dados
 
@@ -141,7 +141,7 @@ Relacionamentos:
 - clientes 1:1 contatos
 ```
 
-## Como Executar {#como-executar}
+## 🚀 Como Executar
 
 ### Pré-requisitos
 
@@ -218,7 +218,7 @@ uv run pytest --cov=app --cov-report=html
 
 ---
 
-## Estrutura do Projeto {#estrutura-do-projeto}
+## 📁 Estrutura do Projeto
 
 ```
 projeto_petshop/
@@ -345,7 +345,7 @@ projeto_petshop/
 
 ---
 
-## Desenvolvedor {#desenvolvedor}
+## 👨‍💻 Desenvolvedor
 
 **Gabriel Pelizzari**
 *Desenvolvedor Full Stack*

@@ -185,11 +185,11 @@ pip install -e .[dev]
 #### Variaveis de Ambiente
 
 ```bash
-# Crie uma copia do arquivo ".env.example" e renomeie para ".env"
+Crie uma copia do arquivo ".env.example" e renomeie para ".env"
 
-# Ajuste as variáveis de ambiente do banco de dados mysql local
+Ajuste as variáveis de ambiente do banco de dados mysql local
 
-# Ajuste as variáveis de ambiente no arquivo `.env` conforme necessário.
+Ajuste as variáveis de ambiente no arquivo `.env` conforme necessário.
 ```
 
 #### Execução dos Comandos

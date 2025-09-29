@@ -38,23 +38,27 @@ Sistema integrado que automatiza processos, centraliza informações e melhora a
 
 ### **Home**
 
-![home](image/README/home.png)
+![Tela inicial do sistema](./image/README/home.png)
 
 ### **Painel Administrativo**
 
 - ✅ **Dashboard Dinâmico** - Estatísticas em tempo real com dados da API
-- ![dashboard_administrativo](image/README/dashboard_administrativo.png)
+
+![Dashboard administrativo](./image/README/dashboard_administrativo.png)
 ---
 - ✅ **Gerenciamento de Atendimentos** - Gerenciamento completo de consultas e procedimentos
-- ![adm_ger_atendimentos](image/README/adm_ger_atendimentos.png)
+
+![Gerenciamento de atendimentos](./image/README/adm_ger_atendimentos.png)
 ---
 - ✅ **Gerenciamento de Clientes** - Cadastro completo com dados pessoais e contato
-- ![adm_ger_clientes](image/README/adm_ger_clientes.png)
+
+![Gerenciamento de clientes](./image/README/adm_ger_clientes.png)
 ---
 - ✅ **Gerenciamento de Pets/Raças** - Sistema integrado para pets e suas raças
-- ![adm_ger_pets](image/README/adm_ger_pets.png)
 
-  ![adm_ger_racas](image/README/adm_ger_racas.png)
+![Gerenciamento de pets](./image/README/adm_ger_pets.png)
+
+![Gerenciamento de raças](./image/README/adm_ger_racas.png)
 ---
 
 ### **Portal do Cliente**
@@ -63,7 +67,7 @@ Sistema integrado que automatiza processos, centraliza informações e melhora a
 - ✅ **Histórico de Atendimentos** - Visualização detalhada de todos os serviços
 - ✅ **Perfil Pessoal** - Gestão de dados e informações de contato
 
-  ![dashboard_cliente](image/README/dashboard_cliente.png)
+![Dashboard do cliente](./image/README/dashboard_cliente.png)
 
 ### **Segurança e Validações**
 

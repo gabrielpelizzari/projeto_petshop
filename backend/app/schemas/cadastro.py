@@ -36,9 +36,12 @@ class CadastroCompleto(BaseModel):
 
     @validator('senha')
     def validate_senha(cls, v):
-        """Valida se a senha tem pelo menos 6 caracteres."""
-        if len(v) < 6:
-            raise ValueError('Senha deve ter pelo menos 6 caracteres')
+        if len(v) < 8:
+            raise ValueError('Senha deve ter no mínimo 8 caracteres')
+        if not re.search(r'[A-Z]', v):
+            raise ValueError('Senha deve conter letra maiúscula')
+        if not re.search(r'[0-9]', v):
+            raise ValueError('Senha deve conter número')
         return v
     
 
